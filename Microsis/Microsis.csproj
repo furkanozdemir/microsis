@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D8B0F2B2-2EE1-4180-A322-CBAE8F4CB945}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsis</RootNamespace>
+    <AssemblyName>Microsis</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="ComingSoon.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="css\base.css" />
+    <Content Include="css\blue.css" />
+    <Content Include="css\icons.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\about-01.jpg" />
+    <Content Include="images\about-02.jpg" />
+    <Content Include="images\about-03.jpg" />
+    <Content Include="images\about.jpg" />
+    <Content Include="images\about.png" />
+    <Content Include="images\accordion-minus%402x.png" />
+    <Content Include="images\accordion-minus.png" />
+    <Content Include="images\accordion-plus%402x.png" />
+    <Content Include="images\accordion-plus.png" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\arrow-left%402x.png" />
+    <Content Include="images\arrow-left.png" />
+    <Content Include="images\arrow-right%402x.png" />
+    <Content Include="images\arrow-right.png" />
+    <Content Include="images\bg\bedge_grunge.png" />
+    <Content Include="images\bg\brushed_alu.png" />
+    <Content Include="images\bg\crisp_paper_ruffles.png" />
+    <Content Include="images\bg\diamond_upholstery.png" />
+    <Content Include="images\bg\egg_shell.png" />
+    <Content Include="images\bg\grey.png" />
+    <Content Include="images\bg\light_toast.png" />
+    <Content Include="images\bg\linedpaper.png" />
+    <Content Include="images\bg\noise.png" />
+    <Content Include="images\bg\noise_pattern_with_crosslines.png" />
+    <Content Include="images\bg\purty_wood.png" />
+    <Content Include="images\bg\retina_dust.png" />
+    <Content Include="images\bg\scribble_light.png" />
+    <Content Include="images\bg\subtle_stripes.png" />
+    <Content Include="images\bg\textured_stripes.png" />
+    <Content Include="images\bg\tileable_wood_texture.png" />
+    <Content Include="images\bg\vichy.png" />
+    <Content Include="images\bg\washi.png" />
+    <Content Include="images\blank.gif" />
+    <Content Include="images\blog-01-large.jpg" />
+    <Content Include="images\blog-01-medium.jpg" />
+    <Content Include="images\blog-01.jpg" />
+    <Content Include="images\blog-02-medium.jpg" />
+    <Content Include="images\blog-02a-large.jpg" />
+    <Content Include="images\blog-02a.jpg" />
+    <Content Include="images\blog-02b-large.jpg" />
+    <Content Include="images\blog-02b.jpg" />
+    <Content Include="images\blog-02c-large.jpg" />
+    <Content Include="images\blog-02c.jpg" />
+    <Content Include="images\blog-03-medium.jpg" />
+    <Content Include="images\blog-03.jpg" />
+    <Content Include="images\blog-04-medium.jpg" />
+    <Content Include="images\breadcrumbs%402x.png" />
+    <Content Include="images\breadcrumbs.png" />
+    <Content Include="images\categories%402x.png" />
+    <Content Include="images\categories.png" />
+    <Content Include="images\comment-arrow.png" />
+    <Content Include="images\fancybox_buttons.png" />
+    <Content Include="images\fancybox_loading.gif" />
+    <Content Include="images\fancybox_overlay.png" />
+    <Content Include="images\fancybox_sprite.png" />
+    <Content Include="images\glyphicons_halflings-white.png" />
+    <Content Include="images\glyphicons_halflings-white.svg" />
+    <Content Include="images\glyphicons_halflings.png" />
+    <Content Include="images\glyphicons_halflings.svg" />
+    <Content Include="images\icon-list-check%402x.png" />
+    <Content Include="images\icon-list-check.png" />
+    <Content Include="images\icon-list-plus%402x.png" />
+    <Content Include="images\icon-list-plus.png" />
+    <Content Include="images\icon-list-sign%402x.png" />
+    <Content Include="images\icon-list-sign.png" />
+    <Content Include="images\icon-list-star%402x.png" />
+    <Content Include="images\icon-list-star.png" />
+    <Content Include="images\layerslider-loader.gif" />
+    <Content Include="images\layerslider-video.png" />
+    <Content Include="images\logo-01.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\portfolio-left%402x.png" />
+    <Content Include="images\portfolio-left-hover.png" />
+    <Content Include="images\portfolio-left.png" />
+    <Content Include="images\portfolio-right%402x.png" />
+    <Content Include="images\portfolio-right-hover.png" />
+    <Content Include="images\portfolio-right.png" />
+    <Content Include="images\portfolio\portfolio-01.jpg" />
+    <Content Include="images\portfolio\portfolio-02.jpg" />
+    <Content Include="images\portfolio\portfolio-03.jpg" />
+    <Content Include="images\portfolio\portfolio-04.jpg" />
+    <Content Include="images\portfolio\portfolio-05.jpg" />
+    <Content Include="images\portfolio\portfolio-06.jpg" />
+    <Content Include="images\portfolio\portfolio-07.jpg" />
+    <Content Include="images\portfolio\portfolio-08.jpg" />
+    <Content Include="images\portfolio\portfolio-09.jpg" />
+    <Content Include="images\portfolio\portfolio-10.jpg" />
+    <Content Include="images\portfolio\portfolio-11.jpg" />
+    <Content Include="images\portfolio\portfolio-12.jpg" />
+    <Content Include="images\portfolio\single-project-01-large.jpg" />
+    <Content Include="images\portfolio\single-project-01.jpg" />
+    <Content Include="images\portfolio\single-project-02-large.jpg" />
+    <Content Include="images\portfolio\single-project-02.jpg" />
+    <Content Include="images\search%402x.png" />
+    <Content Include="images\search-2%402x.png" />
+    <Content Include="images\search-2.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\shop-backpack.png" />
+    <Content Include="images\shop-bike.png" />
+    <Content Include="images\shop-camera.png" />
+    <Content Include="images\slide-01.jpg" />
+    <Content Include="images\slide-01a.png" />
+    <Content Include="images\slide-02.png" />
+    <Content Include="images\slide-02a.png" />
+    <Content Include="images\slide-02b.png" />
+    <Content Include="images\slide-02c.png" />
+    <Content Include="images\slide-02d.png" />
+    <Content Include="images\slide-02e.png" />
+    <Content Include="images\slide-03.jpg" />
+    <Content Include="images\slide-04.jpg" />
+    <Content Include="images\slide-05.jpg" />
+    <Content Include="images\slider-left%402x.png" />
+    <Content Include="images\slider-left.png" />
+    <Content Include="images\slider-right%402x.png" />
+    <Content Include="images\slider-right.png" />
+    <Content Include="images\slider\eth.png" />
+    <Content Include="images\slider\gprs 102.jpg" />
+    <Content Include="images\slider\mi.png" />
+    <Content Include="images\social\amazon%402x.png" />
+    <Content Include="images\social\amazon.png" />
+    <Content Include="images\social\blogger%402x.png" />
+    <Content Include="images\social\blogger.png" />
+    <Content Include="images\social\deviantart%402x.png" />
+    <Content Include="images\social\deviantart.png" />
+    <Content Include="images\social\digg%402x.png" />
+    <Content Include="images\social\digg.png" />
+    <Content Include="images\social\dribbble%402x.png" />
+    <Content Include="images\social\dribbble.png" />
+    <Content Include="images\social\facebook%402x.png" />
+    <Content Include="images\social\facebook.png" />
+    <Content Include="images\social\flickr%402x.png" />
+    <Content Include="images\social\flickr.png" />
+    <Content Include="images\social\forrst%402x.png" />
+    <Content Include="images\social\forrst.png" />
+    <Content Include="images\social\lastfm%402x.png" />
+    <Content Include="images\social\lastfm.png" />
+    <Content Include="images\social\linkedin%402x.png" />
+    <Content Include="images\social\linkedin.png" />
+    <Content Include="images\social\picasa%402x.png" />
+    <Content Include="images\social\picasa.png" />
+    <Content Include="images\social\pinterest%402x.png" />
+    <Content Include="images\social\pinterest.png" />
+    <Content Include="images\social\rss%402x.png" />
+    <Content Include="images\social\rss.png" />
+    <Content Include="images\social\skype%402x.png" />
+    <Content Include="images\social\skype.png" />
+    <Content Include="images\social\tumblr%402x.png" />
+    <Content Include="images\social\tumblr.png" />
+    <Content Include="images\social\twitter%402x.png" />
+    <Content Include="images\social\twitter.png" />
+    <Content Include="images\social\vimeo%402x.png" />
+    <Content Include="images\social\vimeo.png" />
+    <Content Include="images\social\wordpress%402x.png" />
+    <Content Include="images\social\wordpress.png" />
+    <Content Include="images\social\yahoo%402x.png" />
+    <Content Include="images\social\yahoo.png" />
+    <Content Include="images\social\youtube%402x.png" />
+    <Content Include="images\social\youtube.png" />
+    <Content Include="images\switcher%402x.png" />
+    <Content Include="images\switcher.png" />
+    <Content Include="images\testimonials-bg.png" />
+    <Content Include="images\twitter-01%402x.png" />
+    <Content Include="images\twitter-01.png" />
+    <Content Include="images\Untitled-3.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="scripts\custom.js" />
+    <Content Include="scripts\jquery.contact.js" />
+    <Content Include="scripts\jquery.easing.1.3.js" />
+    <Content Include="scripts\jquery.fancybox.min.js" />
+    <Content Include="scripts\jquery.flexslider.js" />
+    <Content Include="scripts\jquery.gmap.min.js" />
+    <Content Include="scripts\jquery.isotope.min.js" />
+    <Content Include="scripts\jquery.jcarousel.js" />
+    <Content Include="scripts\jquery.layerslider.min.js" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="scripts\jquery.modernizr.js" />
+    <Content Include="scripts\jquery.selectnav.js" />
+    <Content Include="scripts\jquery.shop.js" />
+    <Content Include="scripts\jquery.twitter.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="classes\BaseClass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComingSoon.aspx.cs">
+      <DependentUpon>ComingSoon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComingSoon.aspx.designer.cs">
+      <DependentUpon>ComingSoon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <None Include="Properties\PublishProfiles\mic.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10458/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
